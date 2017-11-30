@@ -1,0 +1,29 @@
+Test#1: open 500 111 100 login 000 login 100 pin 111 logout login 100 pin 11 pin 12 pin 12 login 100 logout
+Test#2: open 400 111 100 login 100 pin 111 logout login 100 pin 111 deposit 50 deposit 70 deposit 100 balance balance withdraw 10 balance deposit 100 deposit 10 lock 11 balance balance unlock 11 withdraw 300 lock 11 unlock 11 balance balance deposit 60 deposit 100 logout
+Test#3: open 600 111 100 login 100 pin 2 pin 111 withdraw 10 withdraw 40 deposit 50 withdraw 50 withdraw 100 deposit 100 balance lock 2 unlock 2 withdraw 20 lock 2 unlock 2 deposit 70 logout
+Test#4: open 400 111 100 login 100 pin 200 pin 111 deposit 200 withdraw 50 logout login 2 login 1 login 100 logout login 100 pin 1 logout
+Test#5: open 500 111 100 login 100 pin 111 deposit 100 withdraw 200 deposit 20 lock 1 balance unlock 1 deposit 50 balance deposit 200 withdraw 400 balance logout login 1
+Test#6: open 500 111 100 login 100 pin 2 pin 2 pin 2 login 1 login 100 logout login 1 login 100 pin 111 lock 3 unlock 3 balance withdraw 100 logout
+Test#7: open 500 111 100 login 100 pin 111 balance logout login 100 pin 111 withdraw 100 lock 2 unlock 2 deposit 200 lock 2 unlock 2 lock 3 unlock 3 logout
+Test#8: open 500 111 100 login 100 pin 111 withdraw 100 deposit 200 logout login 100 pin 111 withdraw 200 lock 3 unlock 3 lock 3 unlock 3 logout
+Test#9: open 400 111 100 login 100 pin 111 lock 2 unlock 2 balance lock 2 unlock 2 logout login 100 pin 111 balance
+Test#10: open 500 111 100 open 500 111 100 logout pin 111 deposit 100 withdraw 10 balance lock 2 unlock 2
+Test#11: open 500 111 100 login 100 open 500 111 100 login 111 deposit 100 withdraw 100 balance lock 100 unlock 100
+Test#12: open 500 111 100 login 100 pin 111 open 500 111 100 login 100 pin 111 lock 111 unlock 111
+Test#13: open 500 111 100 login 100 pin 111 lock 5 open 500 111 100 login 100 logout pin 111 deposit 100 withdraw 100 lock 5 unlock 3
+Test#14: open 500 111 100 login 100 pin 111 withdraw 200 open 500 111 100 login 100 pin 111 withdraw 100 lock 111 unlock 5
+Test#15: open 500 111 100 login 100 pin 111 withdraw 600 logout
+Test#16: open 500 111 0 login 0 open 500 111 00
+Test#17: open 500 0 100 open 500 0 100
+Test#18: open 500 0 -1 login -1 open 500 0 -1
+Test#19: open 0 111 100 open 0 111 100
+Test#20: open 0 111 -1 open 0 111 -1
+Test#21: open 0 -2 100 open 0 111 0 open 500 0 0 open 0 111 100 open 500 0 100 open 500 111 0 login 100 open 0 -2 100 login 100 pin -2 deposit 100 withdraw 20 balance lock 2 unlock 2 logout
+Test#22: open 0 0 0 logout open 0 0 0
+Test#23: open 500 111 100 login 100 pin 111 deposit 0
+Test#24: open 500 111 100 login 100 pin 111 lock 2 unlock 2 unlock 2
+Test#25: open 500 111 100 login 100 pin 111 lock 2 unlock 2 unlock 5
+Test#26: open 400 111 100 login 100 pin 111 logout login 100 pin 111 deposit 50 deposit 70 deposit 100 balance balance withdraw 0 logout
+Test#27: open 400 111 100 login 100 pin 111 logout login 100 pin 111 deposit 50 deposit 70 deposit 100 balance balance withdraw 10 balance deposit 100 deposit 10 logout
+Test#28: open 500 111 100 login 100 pin 111 withdraw 480 withdraw 0 logout
+$$
